@@ -26,7 +26,7 @@ section {
 }
 
 a {
-	color: #111;
+	color: #000000;
 }
 
 a:hover {
@@ -129,6 +129,7 @@ a:hover {
 	margin-left: 10px;
  }
 /* Product card */
+
 .product-card {
 	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06);
 	transition: all .3s;
@@ -297,4 +298,9 @@ a:hover {
 	width: 80%;
 	transform: scale(1);
 	background-color: #b6d1fa;
+}
+
+.product-card.button {
+display: flex;
+justify-content: space-between;
 }

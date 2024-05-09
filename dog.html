@@ -9,8 +9,6 @@
 	<link href="https://fonts.googleapis.com/css2?family=Joti+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 	<link rel="stylesheet" href="main.css">
-
-
 	
 	<title>Zoo-Club</title>
 </head>
@@ -112,11 +110,10 @@
                             <div style="margin-right: 3px; position: relative;" class="your-cart-element">
                                 <a href="basket.html" class="btn" style="position: relative; display: inline-block;">
                                   <span class="badge text-bg-info cart-badge bg-dander border-light rounded-circle basket__number" style="position: absolute; top: 0; right: 0; font-size: 10px;">0</span>
-                                  <i class="fa-solid fa-cart-shopping fa-2x " style="font-size: 20px;"></i>
+                                  <i class="fa-solid fa-cart-shopping fa-2x" style="font-size: 20px;"></i>
                                 </a>
                               </div>
                            </div>
-						
 				 </ul> 
 			</div>
 		</div>
@@ -130,57 +127,44 @@
             <div class="col-12">
                 <nav class="breadcrumbs" style="background-color: #F7FFEF;">
                     <ul><li><a href="index.html">Главная</a></li>
-                        <li><a href="cats.html">Кошки</a></li>
+                        <li><a href="cats.html">Собаки</a></li>
                     </ul>
                 </nav>
 				<section class="main-content">
+					
 					<div class="container">
 						<div class="row">
 							<div><h1>Корма</h1></div>
-							<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="33">
+							<!-- 	Корм 1 -->
+							<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="1">
 								<div class="product-card">
 									<div class="product-thumb">
-										<a href="#"><img src="img/корм1.jpg" alt=""></a>
+										<a href="#"><img src="img/кормсоб1.jpg" alt=""></a>
 									</div>
 									<div class="product-details">
 										<h4><a href="#" style="color: #000;">N&D</a></h4>
 										<div class="product-bottom-details d-flex justify-content-between">
-										
-										
 											<div class="product-price">
 												<div class="card-footer text-muted">
 												Есть в наличии
 											  </div>
-											  <span class="weight">10 кг</span> - <span class="price">5000</span>р
+												<span class="weight"> 10 кг </span> - <span class="price">5000</span>р
 											</div>
 											
 											<div class="product-links">
-												<button href="#" class="add-to-cart-btn" style="color: #000000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
-												<button href="#" class="add-to-favorites-btn" style="color: rgb(255, 0, 0);"><i class="far fa-heart"></i></button>
-												<style></style>
-
+												<button href="#" class="add-to-cart-btn" style="color: #000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
+												<button href="#" class="add-to-favorites-btn" style="color: rgb(245, 6, 6);"><i class="far fa-heart"></i></button>
 											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-<!-- 							<script>
-								// Добавление товара в корзину
-function addToCart(productName, size, price) {
-    var cart = getCartFromCookie(); // Получение данных корзины из куки
-    var item = { name: productName, size: size, price: price };
-    cart.push(item); // Добавление товара в корзину
-    saveCartToCookie(cart); // Сохранение обновленной корзины в куке
-    alert('Товар добавлен в корзину!'); // Оповещение пользователя о добавлении товара
-}
 
-// Остальной JavaScript-код для работы с куками остается тем же, что предоставлен в предыдущем ответе
-
-							</script> -->
-							<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="34">
+							<!-- 	Корм 2 -->
+							<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="2">
 								<div class="product-card">
 									<div class="product-thumb">
-										<a href="#"><img src="img/корм2.jpg" alt=""></a>
+										<a href="#"><img src="img/кормсоб2.jpg" alt=""></a>
 									</div>
 									<div class="product-details">
 										<h4><a href="#" style="color: #000;">N&D</a></h4>
@@ -192,18 +176,19 @@ function addToCart(productName, size, price) {
 											  <span class="weight">1.5 кг</span> - <span class="price">1500</span>р
 											</div>
 											<div class="product-links">
-												<button href="#" class="add-to-cart-btn" style="color: #000000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
-												<button href="#" class="add-to-favorites-btn" style="color: rgb(255, 0, 0);"><i class="far fa-heart"></i></button>
+												<button href="#" class="add-to-cart-btn" style="color: #000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
+												<button href="#" class="add-to-favorites-btn" style="color: rgb(245, 6, 6);"><i class="far fa-heart"></i></button>
 											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-							
-							<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="35">
+
+							<!-- 	Корм 3 -->
+							<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="3">
 								<div class="product-card">
 									<div class="product-thumb">
-										<a href="#"><img src="img/корм3.jpg" alt=""></a>
+										<a href="#"><img src="img/кормсоб3.jpg" alt=""></a>
 									</div>
 									<div class="product-details">
 										<h4><a href="#" style="color: #000;">Purina Pro Plan</a></h4>
@@ -215,18 +200,19 @@ function addToCart(productName, size, price) {
 											  <span class="weight">1.5 кг</span> - <span class="price">1500</span>р
 											</div>
 											<div class="product-links">
-												<button href="#" class="add-to-cart-btn" style="color: #000000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
-												<button href="#" class="add-to-favorites-btn" style="color: rgb(255, 0, 0);"><i class="far fa-heart"></i></button>
+												<button href="#" class="add-to-cart-btn" style="color: #000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
+												<button href="#" class="add-to-favorites-btn" style="color: rgb(245, 6, 6);"><i class="far fa-heart"></i></button>
 											</div>
 										</div>
 									</div>
+								</div>
 							</div>
-							</div>
-			
-							<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="36">
+							
+							<!-- 	Корм 4 -->
+							<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="4">
 								<div class="product-card">
 									<div class="product-thumb">
-										<a href="#"  id="services-section4"><img src="img/корм4.jpg" alt="" style="font-size: 50px;"></a>
+										<a href="#"  id="services-section4"><img src="img/кормсоб4.jpg" alt="" style="font-size: 50px;"></a>
 									</div>
 									<div class="product-details">
 										<h4><a href="#" style="color: #000;">Purina Pro Plan</a></h4>
@@ -238,17 +224,19 @@ function addToCart(productName, size, price) {
 											  <span class="weight">1 кг</span> - <span class="price">1000</span>р
 											</div>
 											<div class="product-links">
-												<button href="#" class="add-to-cart-btn" style="color: #000000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
-												<button href="#" class="add-to-favorites-btn" style="color: rgb(255, 0, 0);"><i class="far fa-heart"></i></button>
+												<button href="#" class="add-to-cart-btn" style="color: #000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
+												<button href="#" class="add-to-favorites-btn" style="color: rgb(245, 6, 6);"><i class="far fa-heart"></i></button>
 											</div>
 										</div>
 									</div>	
 								</div>
 							</div>
-							<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="37">
+							
+							<!-- 	Корм 5 -->
+							<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="5">
 								<div class="product-card">
 									<div class="product-thumb">
-										<a href="#"><img src="img/корм5.jpg" alt=""></a>
+										<a href="#"><img src="img/кормсоб5.jpg" alt=""></a>
 									</div>
 									<div class="product-details">
 										<h4><a href="#" style="color: #000;">Royal Canin</a></h4>
@@ -257,22 +245,23 @@ function addToCart(productName, size, price) {
 												<div class="card-footer text-muted">
 												Есть в наличии
 											  </div>
-											  <span class="weight">1.3 кг</span> - <span class="price">1300</span>р
+											  <span class="weight">25 кг</span> - <span class="price">5000</span>р
 											</div>
 											
 											<div class="product-links">
-												<button href="#" class="add-to-cart-btn" style="color: #000000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
-												<button href="#" class="add-to-favorites-btn" style="color: rgb(255, 0, 0);"><i class="far fa-heart"></i></button>
+												<button href="#" class="add-to-cart-btn" style="color: #000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
+												<button href="#" class="add-to-favorites-btn" style="color: rgb(245, 6, 6);"><i class="far fa-heart"></i></button>
 											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-			
-							<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="38">
+							
+							<!-- 	Корм 6 -->
+							<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="6">
 								<div class="product-card">
 									<div class="product-thumb">
-										<a href="#"><img src="img/корм6.jpg" alt=""></a>
+										<a href="#"><img src="img/кормсоб6.jpg" alt=""></a>
 									</div>
 									<div class="product-details">
 										<h4><a href="#" style="color: #000;">Royal Canin</a></h4>
@@ -284,18 +273,19 @@ function addToCart(productName, size, price) {
 											  <span class="weight">400 г</span> - <span class="price">500</span>р
 											</div>
 											<div class="product-links">
-												<button href="#" class="add-to-cart-btn" style="color: #000000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
-												<button href="#" class="add-to-favorites-btn" style="color: rgb(255, 0, 0);"><i class="far fa-heart"></i></button>
+												<button href="#" class="add-to-cart-btn" style="color: #000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
+												<button href="#" class="add-to-favorites-btn" style="color: rgb(245, 6, 6);"><i class="far fa-heart"></i></button>
 											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-			
-							<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="39">
+							
+							<!-- 	Корм 7 -->
+							<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="7">
 								<div class="product-card">
 									<div class="product-thumb">
-										<a href="#"><img src="img/корм7.jpg" alt=""></a>
+										<a href="#"><img src="img/кормсоб7.jpg" alt=""></a>
 									</div>
 									<div class="product-details">
 										<h4><a href="#" style="color: #000;">Vet Life</a></h4>
@@ -307,18 +297,19 @@ function addToCart(productName, size, price) {
 											  <span class="weight">1.5 кг</span> - <span class="price">1500</span>р
 											</div>
 											<div class="product-links">
-												<button href="#" class="add-to-cart-btn" style="color: #000000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
-												<button href="#" class="add-to-favorites-btn" style="color: rgb(255, 0, 0);"><i class="far fa-heart"></i></button>
+												<button href="#" class="add-to-cart-btn" style="color: #000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
+												<button href="#" class="add-to-favorites-btn" style="color: rgb(245, 6, 6);"><i class="far fa-heart"></i></button>
 											</div>
 										</div>
 									</div>
+								</div>
 							</div>
-							</div>
-			
-							<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="40">
+							
+							<!-- 	Корм 8 -->
+							<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="8">
 								<div class="product-card">
 									<div class="product-thumb">
-										<a href="#"  id="services-section4"><img src="img/корм8.jpg" style="font-size: 50px;"></a>
+										<a href="#"  id="services-section4"><img src="img/кормсоб8.jpg" style="font-size: 50px;"></a>
 									</div>
 									<div class="product-details">
 										<h4><a href="#" style="color: #000;">Vet Life</a></h4>
@@ -330,8 +321,8 @@ function addToCart(productName, size, price) {
 											  <span class="weight">1 кг</span> - <span class="price">1000</span>р
 											</div>
 											<div class="product-links">
-												<button href="#" class="add-to-cart-btn" style="color: #000000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
-												<button href="#" class="add-to-favorites-btn" style="color: rgb(255, 0, 0);"><i class="far fa-heart"></i></button>
+												<button href="#" class="add-to-cart-btn" style="color: #000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
+												<button href="#" class="add-to-favorites-btn" style="color: rgb(245, 6, 6);"><i class="far fa-heart"></i></button>
 											</div>
 										</div>
 									</div>	
@@ -342,13 +333,15 @@ function addToCart(productName, size, price) {
 					<div class="container">
 						<div class="row">
 							<div><h1>Игрушки</h1></div>
-							<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="41">
+
+							<!-- 	Игрушки 1 -->
+							<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="9">
 								<div class="product-card">
 									<div class="product-thumb">
-										<a href="#"><img src="img/Игрушка1.jpg" alt=""></a>
+										<a href="#"><img src="img/игрушкасоб1.jpg" alt=""></a>
 									</div>
 									<div class="product-details">
-										<h4><a href="#" style="color: #000;">Интерактивная игрушка</a></h4>
+										<h4><a href="#" style="color: #000;">Косточки</a></h4>
 										<div class="product-bottom-details d-flex justify-content-between">
 											<div class="product-price">
 												<div class="card-footer text-muted">
@@ -359,45 +352,22 @@ function addToCart(productName, size, price) {
 											</div>
 											
 											<div class="product-links">
-												<button href="#" class="add-to-cart-btn" style="color: #000000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
-												<button href="#" class="add-to-favorites-btn" style="color: rgb(255, 0, 0);"><i class="far fa-heart"></i></button>
+												<button href="#" class="add-to-cart-btn" style="color: #000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
+												<button href="#" class="add-to-favorites-btn" style="color: rgb(245, 6, 6);"><i class="far fa-heart"></i></button>
 											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-			
-							<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="42">
+							
+							<!-- 	Игрушки 2 -->
+							<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="10">
 								<div class="product-card">
 									<div class="product-thumb">
-										<a href="#"><img src="img/Игрушка2.jpg" alt=""></a>
+										<a href="#"><img src="img/игрушкасоб2.jpg" alt=""></a>
 									</div>
 									<div class="product-details">
-										<h4><a href="#" style="color: #000;">Плетеные мячики</a></h4>
-										<div class="product-bottom-details d-flex justify-content-between">
-											<div class="product-price">
-												<div class="card-footer text-muted">
-												Есть в наличии
-											  </div>
-											  <span class="weight"></span>
-											  <span class="price">250</span>p
-											</div>
-											<div class="product-links">
-												<button href="#" class="add-to-cart-btn" style="color: #000000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
-												<button href="#" class="add-to-favorites-btn" style="color: rgb(255, 0, 0);"><i class="far fa-heart"></i></button>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-			
-							<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="43">
-								<div class="product-card">
-									<div class="product-thumb">
-										<a href="#"><img src="img/игрушка3,jpg.jpg" alt=""></a>
-									</div>
-									<div class="product-details">
-										<h4><a href="#" style="color: #000;">Интерактивная игрушка</a></h4>
+										<h4><a href="#" style="color: #000;">Бегемот</a></h4>
 										<div class="product-bottom-details d-flex justify-content-between">
 											<div class="product-price">
 												<div class="card-footer text-muted">
@@ -407,21 +377,47 @@ function addToCart(productName, size, price) {
 											  <span class="price">250</span>р
 											</div>
 											<div class="product-links">
-												<button href="#" class="add-to-cart-btn" style="color: #000000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
-												<button href="#" class="add-to-favorites-btn" style="color: rgb(255, 0, 0);"><i class="far fa-heart"></i></button>
+												<button href="#" class="add-to-cart-btn" style="color: #000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
+												<button href="#" class="add-to-favorites-btn" style="color: rgb(245, 6, 6);"><i class="far fa-heart"></i></button>
 											</div>
 										</div>
 									</div>
-							</div>
+								</div>
 							</div>
 			
-							<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="44">
+							<!-- 	Игрушки 3 -->
+							<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="11">
 								<div class="product-card">
 									<div class="product-thumb">
-										<a href="#"  id="services-section4"><img src="img/игрушка4.jpg" alt="" style="font-size: 50px;"></a>
+										<a href="#"><img src="img/игрушкасоб3.jpg" alt=""></a>
 									</div>
 									<div class="product-details">
-										<h4><a href="#" style="color: #000;">Мышь на пульте управления</a></h4>
+										<h4><a href="#" style="color: #000;">Канат</a></h4>
+										<div class="product-bottom-details d-flex justify-content-between">
+											<div class="product-price">
+												<div class="card-footer text-muted">
+												Есть в наличии
+											  </div>
+											  <span class="weight"></span>
+											  <span class="price">250</span>р
+											</div>
+											<div class="product-links">
+												<button href="#" class="add-to-cart-btn" style="color: #000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
+												<button href="#" class="add-to-favorites-btn" style="color: rgb(245, 6, 6);"><i class="far fa-heart"></i></button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<!-- 	Игрушки 4 -->
+							<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="12">
+								<div class="product-card">
+									<div class="product-thumb">
+										<a href="#"  id="services-section4"><img src="img/игрушкасоб4.jpg" alt="" style="font-size: 50px;"></a>
+									</div>
+									<div class="product-details">
+										<h4><a href="#" style="color: #000;">Плюшевые кости</a></h4>
 										<div class="product-bottom-details d-flex justify-content-between">
 											<div class="product-price">
 												<div class="card-footer text-muted">
@@ -431,20 +427,22 @@ function addToCart(productName, size, price) {
 											  <span class="price">607</span>р
 											</div>
 											<div class="product-links">
-												<button href="#" class="add-to-cart-btn" style="color: #000000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
-												<button href="#" class="add-to-favorites-btn" style="color: rgb(255, 0, 0);"><i class="far fa-heart"></i></button>
+												<button href="#" class="add-to-cart-btn" style="color: #000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
+												<button href="#" class="add-to-favorites-btn" style="color: rgb(245, 6, 6);"><i class="far fa-heart"></i></button>
 											</div>
 										</div>
 									</div>	
 								</div>
 							</div>
-							<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="45">
+							
+							<!-- 	Игрушки 5 -->
+							<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="13">
 								<div class="product-card">
 									<div class="product-thumb">
-										<a href="#"><img src="img/игрушка5.jpg" alt=""></a>
+										<a href="#"><img src="img/игрушкасоб5.jpg" alt=""></a>
 									</div>
 									<div class="product-details">
-										<h4><a href="#" style="color: #000;">Дразнилка</a></h4>
+										<h4><a href="#" style="color: #000;">KFC</a></h4>
 										<div class="product-bottom-details d-flex justify-content-between">
 											<div class="product-price">
 												<div class="card-footer text-muted">
@@ -455,21 +453,22 @@ function addToCart(productName, size, price) {
 											</div>
 											
 											<div class="product-links">
-												<button href="#" class="add-to-cart-btn" style="color: #000000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
-												<button href="#" class="add-to-favorites-btn" style="color: rgb(255, 0, 0);"><i class="far fa-heart"></i></button>
+												<button href="#" class="add-to-cart-btn" style="color: #000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
+												<button href="#" class="add-to-favorites-btn" style="color: rgb(245, 6, 6);"><i class="far fa-heart"></i></button>
 											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-			
-							<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="46">
+							
+							<!-- 	Игрушки 6 -->
+							<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="14">
 								<div class="product-card">
 									<div class="product-thumb">
-										<a href="#"><img src="img/игрушка6.jpg" alt=""></a>
+										<a href="#"><img src="img/игрушкасоб6.jpg" alt=""></a>
 									</div>
 									<div class="product-details">
-										<h4><a href="#" style="color: #000;">Дразника</a></h4>
+										<h4><a href="#" style="color: #000;">Леденец</a></h4>
 										<div class="product-bottom-details d-flex justify-content-between">
 											<div class="product-price">
 												<div class="card-footer text-muted">
@@ -479,21 +478,22 @@ function addToCart(productName, size, price) {
 											  <span class="price">400</span>р
 											</div>
 											<div class="product-links">
-												<button href="#" class="add-to-cart-btn" style="color: #000000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
-												<button href="#" class="add-to-favorites-btn" style="color: rgb(255, 0, 0);"><i class="far fa-heart"></i></button>
+												<button href="#" class="add-to-cart-btn" style="color: #000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
+												<button href="#" class="add-to-favorites-btn" style="color: rgb(245, 6, 6);"><i class="far fa-heart"></i></button>
 											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-			
-							<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="47">
+							
+							<!-- 	Игрушки 7 -->
+							<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="15">
 								<div class="product-card">
 									<div class="product-thumb">
-										<a href="#"><img src="img/игрушка7.jpg" alt=""></a>
+										<a href="#"><img src="img/игрушкусоб7.jpg"></a>
 									</div>
 									<div class="product-details">
-										<h4><a href="#" style="color: #000;">Лазерная указка</a></h4>
+										<h4><a href="#" style="color: #000;">Пчелка "Майя"</a></h4>
 										<div class="product-bottom-details d-flex justify-content-between">
 											<div class="product-price">
 												<div class="card-footer text-muted">
@@ -503,21 +503,22 @@ function addToCart(productName, size, price) {
 											  <span class="price">370</span>р
 											</div>
 											<div class="product-links">
-												<button href="#" class="add-to-cart-btn" style="color: #000000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
-												<button href="#" class="add-to-favorites-btn" style="color: rgb(255, 0, 0);"><i class="far fa-heart"></i></button>
+												<button href="#" class="add-to-cart-btn" style="color: #000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
+												<button href="#" class="add-to-favorites-btn" style="color: rgb(245, 6, 6);"><i class="far fa-heart"></i></button>
 											</div>
 										</div>
 									</div>
+								</div>
 							</div>
-							</div>
-			
-							<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="48">
+							
+							<!-- 	Игрушки 8 -->
+							<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="16">
 								<div class="product-card">
 									<div class="product-thumb">
-										<a href="#"  id="services-section4"><img src="img/игрушка8.jpg" style="font-size: 50px;"></a>
+										<a href="#"  id="services-section4"><img src="img/игрушкасоб8.jpg" style="font-size: 50px;"></a>
 									</div>
 									<div class="product-details">
-										<h4><a href="#" style="color: #000;">Интерактивная игрушка</a></h4>
+										<h4><a href="#" style="color: #000;">Лизательный коврик</a></h4>
 										<div class="product-bottom-details d-flex justify-content-between">
 											<div class="product-price">
 												<div class="card-footer text-muted">
@@ -527,8 +528,8 @@ function addToCart(productName, size, price) {
 											  <span class="price">150</span>р
 											</div>
 											<div class="product-links">
-												<button href="#" class="add-to-cart-btn" style="color: #000000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
-												<button href="#" class="add-to-favorites-btn" style="color: rgb(255, 0, 0);"><i class="far fa-heart"></i></button>
+												<button href="#" class="add-to-cart-btn" style="color: #000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
+												<button href="#" class="add-to-favorites-btn" style="color: rgb(245, 6, 6);"><i class="far fa-heart"></i></button>
 											</div>
 										</div>
 									</div>	
@@ -536,19 +537,21 @@ function addToCart(productName, size, price) {
 							</div>
 						</section>
 					</div>
-		</div>
+				</div>
 
 
 					<div class="container">
 						<div class="row">
 							<div><h1>Уходовые средства</h1></div>
-							<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="49">
+							
+							<!-- 	Уходовые средства 1 -->
+							<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="17">
 								<div class="product-card">
 									<div class="product-thumb">
-										<a href="#"><img src="img/уход1.jpg" alt=""></a>
+										<a href="#"><img src="img/ух.jpg" alt=""></a>
 									</div>
 									<div class="product-details">
-										<h4><a href="#" style="color: #000;">Фитопаста для выведения шерсти</a></h4>
+										<h4><a href="#" style="color: #000;">Набор шампуней для чувствительной кожи собак</a></h4>
 										<div class="product-bottom-details d-flex justify-content-between">
 											<div class="product-price">
 												<div class="card-footer text-muted">
@@ -559,21 +562,22 @@ function addToCart(productName, size, price) {
 											</div>
 											
 											<div class="product-links">
-												<button href="#" class="add-to-cart-btn" style="color: #000000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
-												<button href="#" class="add-to-favorites-btn" style="color: rgb(255, 0, 0);"><i class="far fa-heart"></i></button>
+												<button href="#" class="add-to-cart-btn" style="color: #000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
+												<button href="#" class="add-to-favorites-btn" style="color: rgb(245, 6, 6);"><i class="far fa-heart"></i></button>
 											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-			
-							<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="50">
+										
+							<!-- 	Уходовые средства 2 -->
+							<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="18">
 								<div class="product-card">
 									<div class="product-thumb">
-										<a href="#"><img src="img/уход2.jpg" alt=""></a>
+										<a href="#"><img src="img/ух1.jpg" alt=""></a>
 									</div>
 									<div class="product-details">
-										<h4><a href="#" style="color: #000;">Защита от блох и клещей</a></h4>
+										<h4><a href="#" style="color: #000;">Спрей от блох и клещей</a></h4>
 										<div class="product-bottom-details d-flex justify-content-between">
 											<div class="product-price">
 												<div class="card-footer text-muted">
@@ -583,21 +587,22 @@ function addToCart(productName, size, price) {
 											  <span class="price">250</span>р
 											</div>
 											<div class="product-links">
-												<button href="#" class="add-to-cart-btn" style="color: #000000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
-												<button href="#" class="add-to-favorites-btn" style="color: rgb(255, 0, 0);"><i class="far fa-heart"></i></button>
+												<button href="#" class="add-to-cart-btn" style="color: #000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
+												<button href="#" class="add-to-favorites-btn" style="color: rgb(245, 6, 6);"><i class="far fa-heart"></i></button>
 											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-			
-							<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="51">
+							
+							<!-- 	Уходовые средства 3 -->
+							<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="19">
 								<div class="product-card">
 									<div class="product-thumb">
-										<a href="#"><img src="img/уход3.jpg" alt=""></a>
+										<a href="#"><img src="img/ух3.jpg"></a>
 									</div>
 									<div class="product-details">
-										<h4><a href="#" style="color: #000;">Морской шампунь для кошек</a></h4>
+										<h4><a href="#" style="color: #000;">Паста от зубного камня для собак</a></h4>
 										<div class="product-bottom-details d-flex justify-content-between">
 											<div class="product-price">
 												<div class="card-footer text-muted">
@@ -607,21 +612,22 @@ function addToCart(productName, size, price) {
 											  <span class="price">120</span>р
 											</div>
 											<div class="product-links">
-												<button href="#" class="add-to-cart-btn" style="color: #000000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
-												<button href="#" class="add-to-favorites-btn" style="color: rgb(255, 0, 0);"><i class="far fa-heart"></i></button>
+												<button href="#" class="add-to-cart-btn" style="color: #000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
+												<button href="#" class="add-to-favorites-btn" style="color: rgb(245, 6, 6);"><i class="far fa-heart"></i></button>
 											</div>
 										</div>
 									</div>
+								</div>
 							</div>
-							</div>
-			
-							<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="52">
+							
+							<!-- 	Уходовые средства 4 -->
+							<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="20">
 								<div class="product-card">
 									<div class="product-thumb">
-										<a href="#"  id="services-section4"><img src="img/уход4.jpg" alt="" style="font-size: 50px;"></a>
+										<a href="#"  id="services-section4"><img src="img/ух4.jpg" alt="" style="font-size: 50px;"></a>
 									</div>
 									<div class="product-details">
-										<h4><a href="#" style="color: #000;">Раствор для наружного применения от блох и клещей</a></h4>
+										<h4><a href="#" style="color: #000;">Шампунь для кожи собак</a></h4>
 										<div class="product-bottom-details d-flex justify-content-between">
 											<div class="product-price">
 												<div class="card-footer text-muted">
@@ -631,20 +637,22 @@ function addToCart(productName, size, price) {
 											  <span class="price">310</span>р
 											</div>
 											<div class="product-links">
-												<button href="#" class="add-to-cart-btn" style="color: #000000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
-												<button href="#" class="add-to-favorites-btn" style="color: rgb(255, 0, 0);"><i class="far fa-heart"></i></button>
+												<button href="#" class="add-to-cart-btn" style="color: #000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
+												<button href="#" class="add-to-favorites-btn" style="color: rgb(245, 6, 6);"><i class="far fa-heart"></i></button>
 											</div>
 										</div>
 									</div>	
 								</div>
 							</div>
-							<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="53">
+							
+							<!-- 	Уходовые средства 5 -->
+							<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="21">
 								<div class="product-card">
 									<div class="product-thumb">
-										<a href="#"><img src="img/уход5.jpg" alt=""></a>
+										<a href="#"><img src="img/ух5.jpg" alt=""></a>
 									</div>
 									<div class="product-details">
-										<h4><a href="#" style="color: #000;">Капли</a></h4>
+										<h4><a href="#" style="color: #000;">Ошейник от паразитов</a></h4>
 										<div class="product-bottom-details d-flex justify-content-between">
 											<div class="product-price">
 												<div class="card-footer text-muted">
@@ -655,21 +663,22 @@ function addToCart(productName, size, price) {
 											</div>
 											
 											<div class="product-links">
-												<button href="#" class="add-to-cart-btn" style="color: #000000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
-												<button href="#" class="add-to-favorites-btn" style="color: rgb(255, 0, 0);"><i class="far fa-heart"></i></button>
+												<button href="#" class="add-to-cart-btn" style="color: #000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
+												<button href="#" class="add-to-favorites-btn" style="color: rgb(245, 6, 6);"><i class="far fa-heart"></i></button>
 											</div>
 										</div>
 									</div>
 								</div>
 							</div>
 			
-							<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="54">
+							<!-- 	Уходовые средства 6 -->
+							<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="22">
 								<div class="product-card">
 									<div class="product-thumb">
-										<a href="#"><img src="img/уход6.jpg" alt=""></a>
+										<a href="#"><img src="img/ух7.png" alt=""></a>
 									</div>
 									<div class="product-details">
-										<h4><a href="#" style="color: #000;">Восстанавливающий шампунь для кошек</a></h4>
+										<h4><a href="#" style="color: #000;">Фитопаста для выведения шерсти</a></h4>
 										<div class="product-bottom-details d-flex justify-content-between">
 											<div class="product-price">
 												<div class="card-footer text-muted">
@@ -679,21 +688,22 @@ function addToCart(productName, size, price) {
 											  <span class="price">150</span>р
 											</div>
 											<div class="product-links">
-												<button href="#" class="add-to-cart-btn" style="color: #000000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
-												<button href="#" class="add-to-favorites-btn" style="color: rgb(255, 0, 0);"><i class="far fa-heart"></i></button>
+												<button href="#" class="add-to-cart-btn" style="color: #000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
+												<button href="#" class="add-to-favorites-btn" style="color: rgb(245, 6, 6);"><i class="far fa-heart"></i></button>
 											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-			
-							<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="55">
+							
+							<!-- 	Уходовые средства 7 -->
+							<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="23">
 								<div class="product-card">
 									<div class="product-thumb">
-										<a href="#"><img src="img/уход7.jpg" alt=""></a>
+										<a href="#"><img src="img/ух8.jpg"></a>
 									</div>
 									<div class="product-details">
-										<h4><a href="#" style="color: #000;">Распутывающий шампунь для кошек</a></h4>
+										<h4><a href="#" style="color: #000;">Распутывающий шампунь для собак</a></h4>
 										<div class="product-bottom-details d-flex justify-content-between">
 											<div class="product-price">
 												<div class="card-footer text-muted">
@@ -703,21 +713,22 @@ function addToCart(productName, size, price) {
 											  <span class="price">159</span>р
 											</div>
 											<div class="product-links">
-												<button href="#" class="add-to-cart-btn" style="color: #000000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
-												<button href="#" class="add-to-favorites-btn" style="color: rgb(255, 0, 0);"><i class="far fa-heart"></i></button>
+												<button href="#" class="add-to-cart-btn" style="color: #000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
+												<button href="#" class="add-to-favorites-btn" style="color: rgb(245, 6, 6);"><i class="far fa-heart"></i></button>
 											</div>
 										</div>
 									</div>
+								</div>
 							</div>
-							</div>
-			
-							<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="56">
+							
+							<!-- 	Уходовые средства 8 -->
+							<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="24">
 								<div class="product-card">
 									<div class="product-thumb">
-										<a href="#"  id="services-section4"><img src="img/уход8.jpg" style="font-size: 50px;"></a>
+										<a href="#"  id="services-section4"><img src="img/ухjpg.jpg" style="font-size: 50px;"></a>
 									</div>
 									<div class="product-details">
-										<h4><a href="#" style="color: #000;">Шампунь для коротковолосых кошек</a></h4>
+										<h4><a href="#" style="color: #000;">Набор шампуней для собак</a></h4>
 										<div class="product-bottom-details d-flex justify-content-between">
 											<div class="product-price">
 												<div class="card-footer text-muted">
@@ -727,8 +738,8 @@ function addToCart(productName, size, price) {
 											  <span class="price">140</span>р
 											</div>
 											<div class="product-links">
-												<button href="#" class="add-to-cart-btn" style="color: #000000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
-												<button href="#" class="add-to-favorites-btn" style="color: rgb(255, 0, 0);"><i class="far fa-heart"></i></button>
+												<button href="#" class="add-to-cart-btn" style="color: #000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
+												<button href="#" class="add-to-favorites-btn" style="color: rgb(245, 6, 6);"><i class="far fa-heart"></i></button>
 											</div>
 										</div>
 									</div>	
@@ -736,19 +747,21 @@ function addToCart(productName, size, price) {
 							</div>
 						</section>
 					</div>
-		</div>
+				</div>
 
 
 		<div class="container">
 			<div class="row">
 				<div><h1>Домики-когтеточки</h1></div>
-				<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="57">
+				
+				<!-- 	Домики-когтеточки 1 -->
+				<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="25">
 					<div class="product-card">
 						<div class="product-thumb">
-							<a href="#"><img src="img/дом1.jpg" alt=""></a>
+							<a href="#"><img src="img/д.jpg" alt=""></a>
 						</div>
 						<div class="product-details">
-							<h4><a href="#" style="color: #000;">Sawdust</a></h4>
+							<h4><a href="#" style="color: #000;">Burberry</a></h4>
 							<div class="product-bottom-details d-flex justify-content-between">
 								<div class="product-price">
 									<div class="card-footer text-muted">
@@ -759,21 +772,22 @@ function addToCart(productName, size, price) {
 								</div>
 								
 								<div class="product-links">
-									<button href="#" class="add-to-cart-btn" style="color: #000000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
-									<button href="#" class="add-to-favorites-btn" style="color: rgb(255, 0, 0);"><i class="far fa-heart"></i></button>
+									<button href="#" class="add-to-cart-btn" style="color: #000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
+									<button href="#" class="add-to-favorites-btn" style="color: rgb(245, 6, 6);"><i class="far fa-heart"></i></button>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 
-				<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="58">
+				<!-- 	Домики-когтеточки 2 -->
+				<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="26">
 					<div class="product-card">
 						<div class="product-thumb">
-							<a href="#"><img src="img/дом2.jpg" alt=""></a>
+							<a href="#"><img src="img/д2.jpg" alt=""></a>
 						</div>
 						<div class="product-details">
-							<h4><a href="#" style="color: #000;">Lair</a></h4>
+							<h4><a href="#" style="color: #000;">Pudding</a></h4>
 							<div class="product-bottom-details d-flex justify-content-between">
 								<div class="product-price">
 									<div class="card-footer text-muted">
@@ -783,21 +797,22 @@ function addToCart(productName, size, price) {
 								  <span class="price">1200</span>р
 								</div>
 								<div class="product-links">
-									<button href="#" class="add-to-cart-btn" style="color: #000000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
-									<button href="#" class="add-to-favorites-btn" style="color: rgb(255, 0, 0);"><i class="far fa-heart"></i></button>
+									<button href="#" class="add-to-cart-btn" style="color: #000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
+									<button href="#" class="add-to-favorites-btn" style="color: rgb(245, 6, 6);"><i class="far fa-heart"></i></button>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 
-				<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="59">
+				<!-- 	Домики-когтеточки 3 -->
+				<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="27">
 					<div class="product-card">
 						<div class="product-thumb">
-							<a href="#"><img src="img/дом3.jpg" alt=""></a>
+							<a href="#"><img src="img/д3.jpg"></a>
 						</div>
 						<div class="product-details">
-							<h4><a href="#" style="color: #000;">Taiga</a></h4>
+							<h4><a href="#" style="color: #000;">Coquette</a></h4>
 							<div class="product-bottom-details d-flex justify-content-between">
 								<div class="product-price">
 									<div class="card-footer text-muted">
@@ -807,21 +822,22 @@ function addToCart(productName, size, price) {
 								  <span class="price">889</span>р
 								</div>
 								<div class="product-links">
-									<button href="#" class="add-to-cart-btn" style="color: #000000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
-									<button href="#" class="add-to-favorites-btn" style="color: rgb(255, 0, 0);"><i class="far fa-heart"></i></button>
+									<button href="#" class="add-to-cart-btn" style="color: #000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
+									<button href="#" class="add-to-favorites-btn" style="color: rgb(245, 6, 6);"><i class="far fa-heart"></i></button>
 								</div>
 							</div>
 						</div>
+					</div>
 				</div>
-				</div>
-
-				<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="60">
+				
+				<!-- 	Домики-когтеточки 4 -->
+				<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="28">
 					<div class="product-card">
 						<div class="product-thumb">
-							<a href="#"  id="services-section4"><img src="img/дом4.jpg" alt="" style="font-size: 50px;"></a>
+							<a href="#"  id="services-section4"><img src="img/д4.jpg" alt="" style="font-size: 50px;"></a>
 						</div>
 						<div class="product-details">
-							<h4><a href="#" style="color: #000;">Lawn</a></h4>
+							<h4><a href="#" style="color: #000;">Sofa</a></h4>
 							<div class="product-bottom-details d-flex justify-content-between">
 								<div class="product-price">
 									<div class="card-footer text-muted">
@@ -831,20 +847,22 @@ function addToCart(productName, size, price) {
 								  <span class="price">1066</span>р
 								</div>
 								<div class="product-links">
-									<button href="#" class="add-to-cart-btn" style="color: #000000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
-									<button href="#" class="add-to-favorites-btn" style="color: rgb(255, 0, 0);"><i class="far fa-heart"></i></button>
+									<button href="#" class="add-to-cart-btn" style="color: #000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
+									<button href="#" class="add-to-favorites-btn" style="color: rgb(245, 6, 6);"><i class="far fa-heart"></i></button>
 								</div>
 							</div>
 						</div>	
 					</div>
 				</div>
-				<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="61">
+
+				<!-- 	Домики-когтеточки 5 -->
+				<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="29">
 					<div class="product-card">
 						<div class="product-thumb">
-							<a href="#"><img src="img/дом5.jpg" alt=""></a>
+							<a href="#"><img src="img/д5.jpg" alt=""></a>
 						</div>
 						<div class="product-details">
-							<h4><a href="#" style="color: #000;">Shadow</a></h4>
+							<h4><a href="#" style="color: #000;">At grandma's</a></h4>
 							<div class="product-bottom-details d-flex justify-content-between">
 								<div class="product-price">
 									<div class="card-footer text-muted">
@@ -855,21 +873,22 @@ function addToCart(productName, size, price) {
 								</div>
 								
 								<div class="product-links">
-									<button href="#" class="add-to-cart-btn" style="color: #000000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
-									<button href="#" class="add-to-favorites-btn" style="color: rgb(255, 0, 0);"><i class="far fa-heart"></i></button>
+									<button href="#" class="add-to-cart-btn" style="color: #000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
+									<button href="#" class="add-to-favorites-btn" style="color: rgb(245, 6, 6);"><i class="far fa-heart"></i></button>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-
-				<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="62">
+				
+				<!-- 	Домики-когтеточки 6 -->
+				<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="30">
 					<div class="product-card">
 						<div class="product-thumb">
-							<a href="#"><img src="img/дом6.jpg" alt=""></a>
+							<a href="#"><img src="img/д6.jpg" alt=""></a>
 						</div>
 						<div class="product-details">
-							<h4><a href="#" style="color: #000;">Beach</a></h4>
+							<h4><a href="#" style="color: #000;">Cloud</a></h4>
 							<div class="product-bottom-details d-flex justify-content-between">
 								<div class="product-price">
 									<div class="card-footer text-muted">
@@ -879,45 +898,22 @@ function addToCart(productName, size, price) {
 								  <span class="price">999</span>р
 								</div>
 								<div class="product-links">
-									<button href="#" class="add-to-cart-btn" style="color: #000000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
-									<button href="#" class="add-to-favorites-btn" style="color: rgb(255, 0, 0);"><i class="far fa-heart"></i></button>
+									<button href="#" class="add-to-cart-btn" style="color: #000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
+									<button href="#" class="add-to-favorites-btn" style="color: rgb(245, 6, 6);"><i class="far fa-heart"></i></button>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 
-				<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="63">
+				<!-- 	Домики-когтеточки 7 -->
+				<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="31">
 					<div class="product-card">
 						<div class="product-thumb">
-							<a href="#"><img src="img/дом7.jpg" alt=""></a>
+							<a href="#"><img src="img/д7.jpg" alt=""></a>
 						</div>
 						<div class="product-details">
-							<h4><a href="#" style="color: #000;">Krastigrab</a></h4>
-							<div class="product-bottom-details d-flex justify-content-between">
-								<div class="product-price">
-									<div class="card-footer text-muted">
-									Есть в наличии
-								  </div>
-								  <span class="weight"></span>
-								  <span class="price">1500</span>р
-								</div>
-								<div class="product-links">
-									<button href="#" class="add-to-cart-btn" style="color: #000000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
-									<button href="#" class="add-to-favorites-btn" style="color: rgb(255, 0, 0);"><i class="far fa-heart"></i></button>
-								</div>
-							</div>
-						</div>
-				</div>
-				</div>
-
-				<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="64">
-					<div class="product-card">
-						<div class="product-thumb">
-							<a href="#"  id="services-section4"><img src="img/дом8.jpg" style="font-size: 50px;"></a>
-						</div>
-						<div class="product-details">
-							<h4><a href="#" style="color: #000;">Leaning Tower of Pisa</a></h4>
+							<h4><a href="#" style="color: #000;">Aristocrat</a></h4>
 							<div class="product-bottom-details d-flex justify-content-between">
 								<div class="product-price">
 									<div class="card-footer text-muted">
@@ -927,8 +923,33 @@ function addToCart(productName, size, price) {
 								  <span class="price">2000</span>р
 								</div>
 								<div class="product-links">
-									<button href="#" class="add-to-cart-btn" style="color: #000000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
-									<button href="#" class="add-to-favorites-btn" style="color: rgb(255, 0, 0);"><i class="far fa-heart"></i></button>
+									<button href="#" class="add-to-cart-btn" style="color: #000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
+									<button href="#" class="add-to-favorites-btn" style="color: rgb(245, 6, 6);"><i class="far fa-heart"></i></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- 	Домики-когтеточки 8 -->
+				<div class="col-lg-3 col-sm-6 mb-3 block__product" data-id="32">
+					<div class="product-card">
+						<div class="product-thumb">
+							<a href="#"  id="services-section4"><img src="img/д8.jpg" style="font-size: 50px;"></a>
+						</div>
+						<div class="product-details">
+							<h4><a href="#" style="color: #000;">Plush</a></h4>
+							<div class="product-bottom-details d-flex justify-content-between">
+								<div class="product-price">
+									<div class="card-footer text-muted">
+									Есть в наличии
+								  </div>
+								  <span class="weight"></span>
+								  <span class="price">1500</span>р
+								</div>
+								<div class="product-links">
+									<button href="#" class="add-to-cart-btn" style="color: #000;"><i class="fas fa-shopping-cart" alt="f"></i></button>
+									<button href="#" class="add-to-favorites-btn" style="color: rgb(245, 6, 6);"><i class="far fa-heart"></i></button>
 								</div>
 							</div>
 						</div>	
@@ -988,30 +1009,32 @@ function addToCart(productName, size, price) {
 						</style>
 
 					</div>
+						
 					</div>					
 					
 				</div>
 			</div>
 		</section>
 	</footer>
+	
 	<style>
 	
-.add-to-cart-btn{
-
-	padding: 0;
-border: none;
-background: none;
-}
-.add-to-favorites-btn{
-	padding: 0;
-border: none;
-background: none;
-}
-
-	</style>
-<!-- корзина  -->
+		.add-to-cart-btn{
+		
+			padding: 0;
+		border: none;
+		background: none;
+		}
+		.add-to-favorites-btn{
+			padding: 0;
+		border: none;
+		background: none;
+		}
+		
+			</style>
+			<!-- корзина  -->
 	<script>
-		document.querySelectorAll('.add-to-cart-btn').forEach(button => {
+	document.querySelectorAll('.add-to-cart-btn').forEach(button => {
     button.addEventListener('click', function() {
         const product = this.closest('.product-card');
         if (!product) {
@@ -1029,7 +1052,6 @@ background: none;
         document.body.appendChild(productImageClone);
 
         const cart = document.querySelector('.your-cart-element');
-		console.log(cart);
         if (!cart) {
             console.error('Cart element not found');
             return;
@@ -1049,57 +1071,57 @@ background: none;
     });
 });
 
-		</script>
-	<style>
-		.animated-product {
-    position: fixed;
-    transition: all 0.5s ease; /* Добавляем CSS transition для плавного перехода */
+
+</script>
+<style>
+	.animated-product {
+position: fixed;
+transition: all 0.5s ease; /* Добавляем CSS transition для плавного перехода */
 }
 
-	</style>
-		<script>
-			document.querySelectorAll('.add-to-favorites-btn').forEach(button => {
-		button.addEventListener('click', function() {
-			const product = this.closest('.product-card');
-			if (!product) {
-				console.error('Product card not found');
-				return;
-			}
-	
-			const productImage = product.querySelector('.product-thumb img');
-			const productImageClone = productImage.cloneNode(true);
-			productImageClone.style.position = 'fixed';
-			productImageClone.style.top = productImage.getBoundingClientRect().top + 'px';
-			productImageClone.style.left = productImage.getBoundingClientRect().left + 'px';
-			productImageClone.style.width = productImage.width + 'px';
-	
-			document.body.appendChild(productImageClone);
-	
-			const cart = document.querySelector('.your-favorites-element');
-			if (!cart) {
-				console.error('Cart element not found');
-				return;
-			}
-			const cartCoords = cart.getBoundingClientRect();
-	
-			productImageClone.style.transition = 'all 0.9s ease-in-out';
-			productImageClone.style.top = cartCoords.top + 'px';
-			productImageClone.style.left = cartCoords.left + 'px';
-			productImageClone.style.width = '50px';
-	
-			productImageClone.addEventListener('transitionend', function() {
-				if (productImageClone.parentNode) {
-					productImageClone.parentNode.removeChild(productImageClone);
-				}
-			});
-		});
+</style>
+<script>
+	document.querySelectorAll('.add-to-favorites-btn').forEach(button => {
+button.addEventListener('click', function() {
+	const product = this.closest('.product-card');
+	if (!product) {
+		console.error('Product card not found');
+		return;
+	}
+
+	const productImage = product.querySelector('.product-thumb img');
+	const productImageClone = productImage.cloneNode(true);
+	productImageClone.style.position = 'fixed';
+	productImageClone.style.top = productImage.getBoundingClientRect().top + 'px';
+	productImageClone.style.left = productImage.getBoundingClientRect().left + 'px';
+	productImageClone.style.width = productImage.width + 'px';
+
+	document.body.appendChild(productImageClone);
+
+	const cart = document.querySelector('.your-favorites-element');
+	if (!cart) {
+		console.error('Cart element not found');
+		return;
+	}
+	const cartCoords = cart.getBoundingClientRect();
+
+	productImageClone.style.transition = 'all 0.9s ease-in-out';
+	productImageClone.style.top = cartCoords.top + 'px';
+	productImageClone.style.left = cartCoords.left + 'px';
+	productImageClone.style.width = '50px';
+
+	productImageClone.addEventListener('transitionend', function() {
+		if (productImageClone.parentNode) {
+			productImageClone.parentNode.removeChild(productImageClone);
+		}
 	});
-	
-			</script>
-	
+});
+});
+
+	</script>
 	<script src="./js/basketTest.js"></script>
 	<script src="./js/favoritesTest.js"></script>
-	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="test.php"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 </body>
 </html>
